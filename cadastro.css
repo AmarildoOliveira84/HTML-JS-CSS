@@ -1,0 +1,21 @@
+.centro{
+    text-align: center;
+    width: 60%;
+    background-color: steelblue;
+    margin: auto;
+    padding: 10px;
+}
+div{
+    width: 100%;
+    padding: 4px;
+}
+input[type="text"],[type="number"],[type="date"]{
+width: 100%;
+}
+textarea{
+    width: 100%;
+}
+button{
+    padding: 10px;
+    width: 100%;
+}

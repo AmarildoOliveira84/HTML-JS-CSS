@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="cadastro.css">
+    <script src="cadastro.js"></script>
+</head>
+
+<body>
+
+    <main>
+        <form>
+            <div class="centro">
+                <h1>Formulário de mensagem</h1>
+                <div>
+
+                    <input type="text" id="nome" placeholder="Nome">
+                </div>
+                <div>
+                    <input type="number" id="idade" placeholder="Idade" min="0" max="100">
+                </div>
+                <div>
+                    <input type="date" id="data" placeholder="Data de Nascimento">
+                </div>
+
+                <div>
+                   <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+                </div>
+
+                <div>
+                    <button onclick="salvar()">Salvar</button>
+                </div>
+                
+                
+
+            </div>
+            
+        </form>
+        
+    </main>
+
+</body>
+
+</html>
